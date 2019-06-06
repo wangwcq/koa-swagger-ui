@@ -738,9 +738,9 @@ joi-to-json-schema@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/joi-to-json-schema/-/joi-to-json-schema-2.5.0.tgz#64f3baa59097720a24e1007a4b2057b1acddf446"
 
-joi-to-swagger@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/joi-to-swagger/-/joi-to-swagger-3.1.0.tgz#3c6b92e7b0c2dd2250fd026c54ed8b42dfde02bc"
+"joi-to-swagger@github:wangwcq/joi-to-swagger#v3.1.1":
+  version "3.1.1"
+  resolved "https://codeload.github.com/wangwcq/joi-to-swagger/tar.gz/ed95ac24b197134b20dc75039e2d673185a9bb65"
   dependencies:
     lodash.find "^4.0.0"
     lodash.get "^4.0.2"
