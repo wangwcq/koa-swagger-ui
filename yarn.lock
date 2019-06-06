@@ -740,12 +740,14 @@ joi-to-json-schema@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/joi-to-json-schema/-/joi-to-json-schema-2.5.0.tgz#64f3baa59097720a24e1007a4b2057b1acddf446"
 
-joi-to-swagger@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/joi-to-swagger/-/joi-to-swagger-1.1.0.tgz#2783c987ca3cd0c166cd8427e49d1d5be6df7ead"
+joi-to-swagger@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/joi-to-swagger/-/joi-to-swagger-3.1.0.tgz#3c6b92e7b0c2dd2250fd026c54ed8b42dfde02bc"
   dependencies:
     lodash.find "^4.0.0"
     lodash.get "^4.0.2"
+    lodash.merge "~4.6.1"
+    lodash.set "~4.3.2"
 
 joi@^10.4.1:
   version "10.4.1"
@@ -828,6 +830,14 @@ lodash.find@^4.0.0:
 lodash.get@^4.0.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+
+lodash.merge@~4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
+
+lodash.set@~4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/lodash.set/-/lodash.set-4.3.2.tgz#d8757b1da807dde24816b0d6a84bea1a76230b23"
 
 lodash@^4.0.0, lodash@^4.15.0, lodash@^4.3.0:
   version "4.17.4"
